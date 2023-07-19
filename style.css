@@ -17,9 +17,6 @@
 body{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
-nav{
-    max-width: 1920px;
-}
 .nav-container{
     display: flex;
     align-items: center;
