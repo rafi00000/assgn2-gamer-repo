@@ -147,7 +147,7 @@ nav .nav-menu a{
     position:relative;
     width: 300px;
     bottom: 310px;
-    left: 500px;
+    left: 600px;
 }
 /* play instantly ends */
 
@@ -155,7 +155,7 @@ nav .nav-menu a{
 .category-container{
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
     flex-wrap: wrap;
     margin-top: -200px;
     margin-bottom: 200px;
