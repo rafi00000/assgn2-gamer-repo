@@ -150,10 +150,10 @@ nav .nav-menu a{
 
 /* category section */
 .category-container{
-    display: grid;
+    display: flex;
     justify-content: center;
     gap: 20px;
-    grid-template-columns: repeat(5, 400px);
+    flex-wrap: wrap;
     margin-top: -200px;
     margin-bottom: 200px;
 }
