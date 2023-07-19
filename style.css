@@ -144,16 +144,16 @@ nav .nav-menu a{
     position:relative;
     width: 300px;
     bottom: 310px;
-    left: 600px;
+    left: 1000px;
 }
 /* play instantly ends */
 
 /* category section */
 .category-container{
-    display: flex;
+    display: grid;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(5, 400px);
     margin-top: -200px;
     margin-bottom: 200px;
 }
