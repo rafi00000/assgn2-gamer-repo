@@ -1,0 +1,39 @@
+@media screen and (max-width: 576px) {
+    nav, .nav-menu, .banner-container, .video-container{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-image, .banner-text{
+        width: 100%;
+        align-items: center;
+        margin: 20px auto 0px ;
+    }
+    
+    
+}  
+
+@media screen and (min-width: 576px) and (max-width: 920px) {
+    nav, .nav-menu, .banner-container{
+        gap: 30px;
+        align-items: center;
+    }
+    .video-container{
+        flex-wrap: wrap;
+    }
+    .banner-image, .banner-text, .play-container{
+        width: 100%;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .play-text{
+        margin-top: 200px;
+    }
+    .angela{
+        bottom: 600px;
+        left: 0px;
+    }
+}
