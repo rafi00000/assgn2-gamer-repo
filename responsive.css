@@ -67,11 +67,12 @@
     .play-desc{
         margin-bottom: 40px;
     }
-    .banner-image, .banner-text, .play-container {
+    .banner-image,.nav-container, .banner-text, .play-container {
         width: 100%;
         align-items: center;
         flex-direction: column;
         margin-top: 20px;
+        gap: 20px;
     }
     .play-text{
         margin-top: 200px;
