@@ -1,5 +1,5 @@
 @media screen and (max-width: 576px) {
-    nav, .nav-menu, .banner-container, .video-container{
+    .nav-menu, .nav-container, .banner-container, .video-container, .play-container{
         flex-direction: column;
         gap: 30px;
         align-items: center;
@@ -7,33 +7,87 @@
     .banner-container{
         flex-direction: column-reverse;
     }
+
     .banner-image, .banner-text{
         width: 100%;
         align-items: center;
         margin: 20px auto 0px ;
     }
-    
-    
+    .banner-image{
+        background-color: white;
+    }
+    .play-container{
+        margin-top: 50px;
+    }
+    .banner-text{
+        background-image: url("/images/group\ 14.png");
+        background-size: contain;
+        padding: 20px;
+        background-repeat: no-repeat;
+    }
+    .play-image{
+        width: 250px;
+    }
+    .footer-links{
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .angela{
+        width: 100px;
+        left: 10px;
+        bottom: 70px;
+    }
+    .category-container{
+        margin: auto;
+    }
+    .footer-container{
+        padding: 20px;
+        margin: 0px;
+        gap: 30px;
+    }
+    .footer-links{
+        gap: 20px;
+    }
+    .footer-container .nav-logo img {
+        width: 20%;
+    }
 }  
 
+
+
+/* tablet responsive  */
 @media screen and (min-width: 576px) and (max-width: 920px) {
-    nav, .nav-menu, .banner-container{
+    .nav-menu, .banner-container, .footer-links{
         gap: 30px;
         align-items: center;
     }
     .video-container{
         flex-wrap: wrap;
     }
-    .banner-image, .banner-text, .play-container{
+    .play-desc{
+        margin-bottom: 40px;
+    }
+    .banner-image, .banner-text, .play-container {
         width: 100%;
         align-items: center;
-        flex-direction: column-reverse;
+        flex-direction: column;
+        margin-top: 20px;
     }
     .play-text{
         margin-top: 200px;
     }
     .angela{
-        bottom: 600px;
+        bottom: 300px;
         left: 0px;
     }
+    .category-container{
+        margin: 30px 0px;
+    }
+    .footer-container{
+        padding: 4vh;
+    }
+    .footer-container .nav-logo img {
+        width: 15%;
+    }
+
 }
