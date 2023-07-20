@@ -121,7 +121,6 @@ nav .nav-menu a{
     border-radius: 15px;
     
 }
-
 .video-container img:hover{
     border: #FF42A5 4px solid;
 }
@@ -129,17 +128,6 @@ nav .nav-menu a{
 .video-cards p{
     width: 250px;
     margin-bottom: -50px;
-}
-.play-icon{
-    position: relative;
-    opacity: 0;
-    bottom: 150px;
-}
-.play-icon:hover{
-    opacity: 1 ;
-}
-.fa-solid{
-    font-size: 35px;
 }
 
 
